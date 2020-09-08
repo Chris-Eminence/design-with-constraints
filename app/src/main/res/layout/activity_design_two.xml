@@ -164,7 +164,6 @@
         android:layout_width="60dp"
         android:layout_height="wrap_content"
         android:background="@drawable/minus_button"
-        android:onClick="decrement"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"/>
 
@@ -181,7 +180,6 @@
         android:id="@+id/plusButton"
         android:layout_width="60dp"
         android:layout_height="wrap_content"
-        android:onClick="increment"
         android:background="@drawable/add_button"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toRightOf="@id/textViewNumber"/>
